@@ -1,0 +1,47 @@
+.div-coins
+  position relative
+
+  /* Coin supérieur gauche */
+  &::before
+    content ""
+    position absolute
+    top 0
+    left 0
+    width 10px
+    height 10px
+    border-top 3px solid $second_color
+    border-left 3px solid $second_color
+    
+
+  /* Coin supérieur droit */
+  &::after
+    content ""
+    position absolute
+    top 0
+    right 0
+    width 10px
+    height 10px
+    border-top 3px solid $second_color
+    border-right 3px solid $second_color
+
+  /* Coin inférieur gauche */
+  .corner-bottom-left
+    content ""
+    position absolute
+    bottom 0
+    left 0
+    width 10px
+    height 10px
+    border-bottom 3px solid $second_color
+    border-left 3px solid $second_color
+
+  /* Coin inférieur droit */
+  .corner-bottom-right
+    content ""
+    position absolute
+    bottom 0
+    right 0
+    width 10px
+    height 10px
+    border-bottom 3px solid $second_color
+    border-right 3px solid $second_color
