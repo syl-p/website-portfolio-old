@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "typed.js": "^2.1.0"
   }
 }

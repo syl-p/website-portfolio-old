@@ -8326,6 +8326,11 @@
     "is-typed-array" "^1.1.13"
     "possible-typed-array-names" "^1.0.0"
 
+"typed.js@^2.1.0":
+  "integrity" "sha512-bDuXEf7YcaKN4g08NMTUM6G90XU25CK3bh6U0THC/Mod/QPKlEt9g/EjvbYB8x2Qwr2p6J6I3NrsoYaVnY6wsQ=="
+  "resolved" "https://registry.npmjs.org/typed.js/-/typed.js-2.1.0.tgz"
+  "version" "2.1.0"
+
 "typedarray-to-buffer@^3.1.5":
   "integrity" "sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q=="
   "resolved" "https://registry.npmjs.org/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz"
