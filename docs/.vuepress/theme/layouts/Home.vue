@@ -66,39 +66,34 @@
           </aside>
         </section>
         <section class="columns practice-content">
+
+          <h2 class="column col-12">Services</h2>
+          <aside class="column col-lg-12 col-6">
+            <div>
+              <h3>FRONT END</h3>
+              <img src="https://camo.githubusercontent.com/3a5a9bf833091b5d30369f7488f233d786853ddd74551ef85289ce20975b58da/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d74732c6a732c74687265656a732c7675656a732c766974652c7461696c77696e64" 
+              data-canonical-src="https://skillicons.dev/icons?i=ts,js,threejs,vuejs,vite,tailwind">
+            </div>
+            <div>
+              <h3>BACK END</h3>
+              <img src="https://camo.githubusercontent.com/3450b857981104e8c2f628a98848da6ed01e2096666142b7394804a57d16c391/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d727562792c7261696c732c6e6f64656a732c65787072657373" data-canonical-src="https://skillicons.dev/icons?i=ruby,rails,nodejs,express" style="max-width: 100%;">
+            </div>
+            <div>
+              <h3>BACK END</h3>
+              <img src="https://camo.githubusercontent.com/cd57b95581075da713be26345a7d144679d7f6c471fd66ae7acf8616f4eb5c7b/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6d6f6e676f64622c6d7973716c2c706f737467726573716c2c656c61737469637365617263682c7265646973" data-canonical-src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,elasticsearch,redis" style="max-width: 100%;">
+            </div>
+            <div>
+              <h3>TOOLS</h3>
+              <img src="https://camo.githubusercontent.com/4811efc62325c99ac569465eaee691dcfd72e4869977c8c38dae34bff053c9fc/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6769742c646f636b65722c6c696e75782c6e67696e78" data-canonical-src="https://skillicons.dev/icons?i=git,docker,linux,nginx" style="max-width: 100%;">
+            </div>
+          </aside>
           <article class="column col-lg-12 col-6 columns">
             <ul class="column col-lg-12 col-12 practice-content-list">
               <li v-for="(s, i) in this.$frontmatter.services">
                 <span>{{ i + 1 }}.</span> {{ s }}
               </li>
             </ul>
-
-            <div class="column col-lg-12 col-12 langage-list">
-              <img src="../../public/img/webpack.png" />
-              <img src="../../public/img/vuejs.png" />
-              <img src="../../public/img/nodejs.png" />
-              <img src="../../public/img/mongodb.png" />
-              <img src="../../public/img/git.png" />
-              <img src="../../public/img/docker.png" />
-            </div>
           </article>
-          <aside class="column col-lg-12 col-6">
-            <div
-              class="indent-paragraph"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              <blockquote class="practice-content-citation">
-                <span class="citation-picto"
-                  ><i class="fa fa-quote-left"></i
-                ></span>
-                <span class="citation-text">{{ this.$frontmatter.quote }}</span>
-                <span class="citation-author">{{
-                  this.$frontmatter.quote_author
-                }}</span>
-              </blockquote>
-            </div>
-          </aside>
           <footer class="column col-12"></footer>
         </section>
       </article>

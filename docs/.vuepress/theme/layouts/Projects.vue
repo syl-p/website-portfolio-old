@@ -5,7 +5,7 @@
       <Content />
       <section class="columns projects-list">
         <article
-          class="colum col-4 projects-list_item"
+          class="colum col-6 col-lg-12 projects-list_item"
           v-for="project in recentFiles"
         >
           <div class="wip" v-if="project.frontmatter.wip">

@@ -21,7 +21,7 @@ export default {
         strings: [
           "Freelance",
           "Etablit en France",
-          "Dans l'Aude, à Carcassonne !",
+          "à Carcassonne (11000 Aude)!",
         ],
         typeSpeed: 50,
         loop: true,

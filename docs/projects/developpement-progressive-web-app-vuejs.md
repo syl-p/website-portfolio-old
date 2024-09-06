@@ -6,7 +6,7 @@ description: Mise en place et usage des technologies nécessaires à la créatio
 img: mockup-pwa-weather.jpg
 client: websylvain
 role: Intégration et développement web
-link: https://pwa-weather.websylvain.com/#/
+link: https://syl-p.github.io/progressive-weather-app/
 missionPicture: mockup-pwa-weather-app.png
 listElements:
   - name: Vue.js

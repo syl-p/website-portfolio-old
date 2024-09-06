@@ -1,13 +1,13 @@
 ---
 project: true
 layout: Project
-title: Développement fullstack d'une plateforme E-learning.
-description: Faciliter l'accès a l'apprentissage d'un instrument de musique.
+title: Practice room
+description: Bienvenue sur "Practice Room", la plateforme communautaire et open source qui transforme votre routine de pratique en une aventure enrichissante.
 img: bg-cite-carcassonne.jpg
 client: Rocking place
 wip: true
 role: Développement web
-link: https://github.com/webdev-happiness/music-learning-frontend
+link: https://github.com/syl-p/practice-room
 missionPicture: screen-cite-carcassonne.png
 listElements:
   - name: vuejs
