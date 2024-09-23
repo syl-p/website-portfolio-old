@@ -1,16 +1,11 @@
 <template>
-    <div class="timeline">
+    <div class="">
 
 
-        <div class="timeline-item" id="timeline-example-2" v-for="post in recentFiles">
-            <div class="timeline-left">
-            <a class="timeline-icon icon-lg">
-                <i class="icon icon-check"></i>
-            </a>
-            </div>
+        <div v-for="post in recentFiles">
             <div class="timeline-content">
-                <h4><a :href="post.path">{{post.title}}</a></h4>
                 <small>Par {{post.frontmatter.author}} | Le <span>{{post.frontmatter.published}}</span></small>
+                <h2><a :href="post.path">{{post.title}}</a></h2>
                 <a :href="post.path">
                   <img v-if='post.frontmatter.img && !noThumb' :src="$withBase('/img/uploads/' + post.frontmatter.img)" :alt="post.title" class="w-100"/>
                 </a>
@@ -46,15 +41,3 @@ export default {
     }
 }
 </script>
-
-
-<style lang="stylus">
-    .timeline{
-        margin-top:70px;
-        h4{
-          margin-top:0px;
-          line-height: 1.2rem;
-          text-transform: uppercase;
-        }
-    }
-</style>

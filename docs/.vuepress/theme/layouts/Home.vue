@@ -66,15 +66,17 @@
           </aside>
         </section>
         <section class="columns practice-content">
-          <h2>Bien plus qu'un développeur, votre partenaire...</h2>
-          <div
-            class="indent-paragraph"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            <p>{{ this.$frontmatter.services_description }}</p>
-          </div>
-          <article class="column col-lg-12 col-6 columns">
+          <header class="column col-12">
+            <h2>Bien plus qu'un développeur, votre partenaire...</h2>
+            <div
+              class="indent-paragraph"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <p>{{ this.$frontmatter.services_description }}</p>
+            </div>
+          </header>
+          <article class="column col-lg-12 col-6" style="margin-bottom: 25px;">
             <ul class="column col-lg-12 col-12 practice-content-list">
               <li v-for="(s, i) in this.$frontmatter.services">
                 <span>{{ i + 1 }}.</span> {{ s }}

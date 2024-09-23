@@ -16,7 +16,7 @@
         </a>
         <a
           id="typef_orm_share"
-          href="https://websylvain.typeform.com/to/l2724z"
+          href="https://sylvain32.typeform.com/to/hP4lpWye"
           data-mode="popup"
           data-hide-headers="true"
           data-hide-footer="true"
@@ -36,23 +36,16 @@
       <div id="cd-nav" class="cd-nav">
         <div class="cd-navigation-wrapper columns">
           <div class="column col-sm-12 col-6">
-            <h2>Navigation</h2>
             <NavLinks />
           </div>
           <!-- .cd-half-block -->
 
-          <div class="column col-sm-12 col-6">
+          <div class="column hide-sm col-sm-12 col-6">
             <address>
               <ul class="cd-contact-info">
-                <li>
-                  <a href="mailto:contact@websylvain.com"
-                    >contact@websylvain.com</a
-                  >
-                </li>
                 <li>07 61 74 17 02</li>
                 <li>
-                  <span>A Carcassonne</span>
-                  <span>Dans l'Aude</span>
+                  <span>A Carcassonne, Aude 11000</span>
                   <span>Occitanie, FRANCE</span>
                 </li>
               </ul>

@@ -58,9 +58,9 @@
             alt=""
           />
         </aside>
-        <aside class="palette-list columns">
+        <aside class="palette-list columns oneline">
           <div
-            class="palette column col-lg-12 col-3"
+            class="palette column col-lg-auto"
             v-for="e in $page.frontmatter.listElements"
           >
             <div

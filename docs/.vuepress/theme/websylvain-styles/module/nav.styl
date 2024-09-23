@@ -114,11 +114,13 @@
   background-color: currentColor;
 }
 .cd-nav .cd-primary-nav {
-  margin-top: 60px;
   list-style: none;
 }
 .cd-nav .cd-primary-nav li {
   margin: 1.6em 0;
+  &:first-child {
+    margin-top: 0px;
+  }
 }
 .cd-nav .cd-primary-nav a {
   color: rgba(255, 255, 255, 0.3)!important;
@@ -132,12 +134,10 @@
 }
 .cd-nav .cd-contact-info {
   margin-left: 0px;
-  margin-top: 80px;
   list-style: none;
 
 }
 .cd-nav .cd-contact-info li {
-  margin-bottom: 1.5em;
   color: rgba(255, 255, 255, 0.3)!important;
 }
 .cd-nav .cd-contact-info a {
@@ -161,7 +161,6 @@
   .cd-nav .cd-primary-nav a {
   }
   .cd-nav .cd-contact-info {
-    margin-top: 120px;
     text-align: right;
   }
   .cd-nav .cd-contact-info li {
