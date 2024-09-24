@@ -3,21 +3,17 @@
     <section class="container columns toped post">
       <article class="section column col-lg-12 col-8">
         <header class="page-header">
+          <Signature :author="this.$page.frontmatter.author" />
           <h1 class="page-header-title">{{ $page.title }}</h1>
         </header>
         <slot name="top" />
         <Content :custom="false" />
-        <aside class="page-infos columns">
-          <div class="column col-6 page-infos-l">
-            <Signature :author="this.$page.frontmatter.author" />
-          </div>
-          <div class="column col-6 page-infos-r">
-            <ShareLinks
-              :url="this.$site.themeConfig.domain + this.$page.path"
-              :message="this.$page.frontmatter.title"
-              :hashtags="'webdev,blogging,freelance'"
-            />
-          </div>
+        <aside class="page-infos">
+          <ShareLinks
+            :url="this.$site.themeConfig.domain + this.$page.path"
+            :message="this.$page.frontmatter.title"
+            :hashtags="'webdev,blogging,freelance'"
+          />
         </aside>
         <footer class="post-comments">
           <Comments />
@@ -33,10 +29,6 @@
 </template>
 <script>
 import {
-  resolvePage,
-  normalize,
-  outboundRE,
-  endingSlashRE,
   resolveSidebarItems,
 } from "../util";
 import Wrapper from "../components/Wrapper.vue";
@@ -88,6 +80,9 @@ export default {
 .page-infos-r
   text-align right
 .site-content
+  img {
+    max-width: 100%;
+  }
   .page, .post
     padding: 0px 11%;
   .toped

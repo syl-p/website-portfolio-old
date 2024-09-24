@@ -3,7 +3,7 @@ title: Sylvain Pastor
 sidebar: false
 website: www.websylvain.com
 avatar: pastor-sylvain-avatar.jpg
-description: Développeur web Freelance dans le sud de la France... Je recherche le code source du bonheur dans le monde du travail.
+description: Développeur web Freelance dans le sud de la France. Aime le Typescript, NodeJs et manger :)
 ---
 
 ## Qui suis je ?

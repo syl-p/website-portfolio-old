@@ -10,13 +10,10 @@ role: Développement web
 listElements:
   - name: Vue.js
     text: Vue.js est un framework JavaScript open source léger et modulaire qui simplifie le développement d'interfaces utilisateur dynamiques.
-    img: vuejs.jpg
-  - name: Pinia
-    text: Vuex est une librairie permettant de gérer un système centralisé de state pour vos composants, inspirée par la logique Flux.
-    img: vuex.jpg
-  - name: Vite.js
-    text: Webpack est un module bundler indispensable pour le développement d'applications JavaScript, permettant de séparer les ressources en modules indépendants, de les minifier et de préparer une version packagée pour la production.
-    img: webpack.jpg
+    img: vuejs.png
+  - name: Typescript
+    text: TypeScript est un langage de programmation libre développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript.
+    img: typescript.png
 missionPicture: screen-1-easy-music-key.jpeg
 bottomPicture: screen-2-easy-music-key.jpeg
 ---
@@ -37,7 +34,7 @@ Outil interactif pour musiciens. Lorsque vous sélectionnez une tonalité, cet o
 - Am / Aeolien;
 - Bø (m7♭5) / Locrien;
 
-![Mockup de l'application progressive](/img/screen-2-easy-music-key.jpeg)
+![Mockup de l'application progressive](/img/projects/screen-2-easy-music-key.jpeg)
 
 ## Liens
 

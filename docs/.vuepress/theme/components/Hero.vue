@@ -39,12 +39,20 @@ export default {
   justify-items: center;
   align-content: center;
   justify-content: center;
-  height: 100vh;
+  height: 50vh;
   
   h1 {
-    font-size: 80px;
+    font-size: 50px;
     color: #fff;
     font-weight: 600;
+  }
+}
+
+@media screen and (min-width: $MQMobile){
+  .intro {
+    h1 {
+      font-size: 80px;
+    }
   }
 }
 </style>

@@ -1,57 +1,62 @@
 ---
 layout: Post
-title:  "Développeur web fullstack, reward dead or alive..."
-published:   2018-03-02
+title: "Développeur web fullstack : à la croisée des chemins"
+published: 2018-03-02
 slug: developpeur-fullstack-article
-tag: Startups dev freelance carcassonne
+tags: [startups, dev, freelance, carcassonne, fullstack]
 author: Sylvain Pastor
 comments: true
 img: startup-meeting.jpg
-description: Développeur web, Intégrateur HTML/CSS/JS, Développeur Fullstack... J'avoue qu'avec tout ces termes triviaux on s'y perd... mais ne vous inquiétez pas, je vais tenter de vous résumer le bidule en quelques lignes.
+description: Développeur web, Intégrateur HTML/CSS/JS, Fullstack... Découvrons ensemble les spécificités du développeur fullstack.
 ---
-![Developpeur web fullstack](../.vuepress/public/img/uploads/startup-meeting.jpg)
+![Développeur web fullstack](../.vuepress/public/img/uploads/startup-meeting.jpg)
 
+Développeur web Back End, Front End, Fullstack… Avec tous ces termes techniques, il est parfois difficile de s'y retrouver. Ne vous inquiétez pas, je vais tenter de résumer tout cela en quelques lignes.
 
-Développeur web, Intégrateur HTML/CSS/JS, Développeur Fullstack... J'avoue qu'avec tout ces termes triviaux on s'y perd... mais ne vous inquiétez pas, je vais tenter de vous résumer le bidule en quelques lignes.
+Dans le monde du développement, il y avait historiquement deux factions : les développeurs **backend** (responsables de l'architecture, des bases de données et du code côté serveur) et ceux du **frontend** (chargés de l'affichage et de l'interaction sur le poste client).
 
-Dans le monde des devs, il y avait jusqu'à très récemment 2 factions bien distinctes chez les développeurs: La première faisant allégeance au backend (architecture, base de données et code côté serveur) et l'autre au front end (affichage des données fournies par le serveur sur le poste client).
+Mais aujourd'hui, un troisième type de développeur sort du lot : le **développeur web fullstack**. Cette évolution reflète une nouvelle dynamique dans notre métier, apportant des réponses à des problématiques complexes dans le monde du travail.
 
-Mais depuis peu, un troisième type de développeur à vu le jour: **les développeurs web fullstack**. Cette dynamique changeant quelque peu le métier de développeur, permettrait de répondre à des problématiques importantes dans le monde du travail.
+> **Serait-il l'élu, capable de rétablir l'équilibre dans la Force ?**
 
-> **Un tel individu serait-il l'élu qui rétablira l'ordre dans la force ?**
+Aujourd’hui, je vais partager avec vous ma vision très personnelle du métier de développeur fullstack.
 
-Je vais m'efforcer aujourd’hui de vous exprimer ma façon bien personnelle de voir le métier de développeur fullstack.
+## Qu'est-ce qu'un développeur fullstack ?
 
-## Quécécé ?
+Alors que la tendance est souvent à la spécialisation (backend vs frontend), le développeur fullstack prend un chemin différent. Il est capable d’intervenir sur l’ensemble de la **pile technologique** (STACK) et de s’adapter aux différents projets. Dans une même journée, il peut travailler sur plusieurs environnements technologiques très variés.
 
-Alors que la tendance chez les développeurs est à la spécialisation (back vs front), le développeur fullstack prend un chemin bien différent. Capable d'intervenir sur l'ensemble de **la pile technologique** (ou STACK). Il doit aussi savoir faire preuve d’adaptation car dans une même journée il peut être amené à travailler sur des projets avec des stacks complètement différents.
+### Ses compétences
 
-* Il développe des webservices pour le back-end
-* Au niveau du front-end, côté utilisateur donc, il conçoit des interfaces utilisateur
-* La conception, manipulation et interrogation des bases de données est aisée pour lui (Sql, no-sql...)
-* Il doit être dans la capacité de configurer le matériel nécessaire au bon fonctionnement de ses applications (Serveur linux par exemple ).
-* Il participe au daily, où il est force de proposition technique et / ou fonctionnelle
-* Ingénieur expérimenté, il peut interagir avec le client pour comprendre et caractériser ses besoins, voire le conseiller si nécessaire.
-* Gérer le versioning d'un projet (Avec git par exemple)
+- Développer des **webservices** pour le backend.
+- Concevoir des **interfaces utilisateurs** côté frontend.
+- Maîtriser la manipulation et l’interrogation des **bases de données** (SQL, NoSQL…).
+- Configurer l’infrastructure, comme un serveur **Linux**.
+- Participer aux **réunions quotidiennes** (daily meetings), en proposant des idées techniques ou fonctionnelles.
+- Interagir avec les clients pour comprendre leurs besoins et les conseiller.
+- Gérer le **versioning** d’un projet, par exemple avec **Git**.
 
+### Attention : le développeur fullstack n’est pas un généraliste
 
-### Attention le développeur fullstack n'est pas un généraliste.
-J'entends souvent dire que le fullstack est un couteau suisse ambulant, cette définition ne correspond pas à l'idée que je me fais du métier. A mon humble avis, il maîtrise un large panel de compétence (Serveur, Base de donnée, script backend, interface utilisateur...) et doit justifier d'une bonne maîtrise de chacun de ces éléments. Certe, contrairement à la tendance, ce développeur ne se positionne pas non plus comme expert d’une technologie en particulier, mais sait parfaitement utiliser celles dont il a besoin pour réaliser ses missions.
+Contrairement à l'idée reçue, dans ma vision, un fullstack n’est pas un "couteau suisse" du développement. Bien qu’il ne soit pas spécialisé dans une technologie en particulier, il doit maîtriser un large éventail de compétences. Il connaît parfaitement les outils et technologies qu’il utilise pour accomplir ses missions. Polyvalence ne signifie pas manque de maîtrise.
 
-### Un petit exemple
-Prenons PHP par exemple; si ce langage suffit à répondre aux différentes problématiques auxquelles fait face le développeur fullstack, il n'a pas besoin dans l’immédiat de maîtriser parfaitement RUBY, NODES ou autres, bien qu'il s'agisse d'un plus.
+Je voudrais éclaircir cela en vous donnant un exemple de ce que pourrait être un fullstack dans ma vision : un développeur spécialisé dans une pile technique particulière.
 
-## Qui a besoin d'un fullstack ?
+Voici quelques exemples :
 
-Inutile de préciser que les startups sont particulièrement intéressées par ce profil. Lorsqu’elles se lancent, elles ne peuvent pas (dans la plupart des cas) embaucher plusieurs développeurs. L’embauche d’un développeur fullstack est donc une solution à la fois pratique et économique pour les startups et les petites entreprises.
+- **Node.js, Vue.js, MongoDB/Postgres...**
+- **PHP, Laravel, SQL, JavaScript**
+- **C#, .NET ASP, SQL, Blazor**
 
-En plus de cela, avec sa vision globale de la pile technique, votre ami fullstack sera plus à même d'apporter des conseils, d'améliorer les différents processus mais aussi de proposer des évolutions qui pourraient être décisives pour votre projet.
+Un développeur fullstack n’a pas besoin de maîtriser parfaitement 50 technologies différentes, mais il doit connaître parfaitement celles qui lui permettent d’intervenir efficacement à la fois côté backend et frontend. Dans un contexte où des technologies comme **Node.js** permettent de travailler des deux côtés avec un même langage (JavaScript), il est devenu possible – et parfois nécessaire – de maîtriser une seule technologie pour certains types de clients.
 
-### Bien choisir votre développeur fullstack
+## Qui a besoin d’un développeur fullstack ?
 
-Ses entreprises doivent choisir un FS en fonction de son stack favoris pour être sur que ces derniers puisse répondre de manière efficace au enjeux du projets.
+Les **startups** sont particulièrement intéressées par ce profil. Lorsqu’elles se lancent, elles n'ont souvent pas les moyens de recruter plusieurs développeurs. Le développeur fullstack représente donc une solution à la fois **économique** et **pratique** pour ces entreprises.
 
-Est ce que faire appel à un fullstack qui a pour langage de prédilection PHP afin de créer une **appli en temps réel** est une bonne idée ? Je ne suis pas sûr. Dans cet exemple précis, opter pour un développeur ( peut être plus cher ) mais avec de l'expérience sur du [nodejs](http://websylvain.com/startups/dev/nodejs/nodejs-pour-startup) et des framework JS comme Angular, vueJs serait peut être une meilleure option.
+Grâce à sa vision globale de la pile technologique, un développeur fullstack peut également apporter des **conseils stratégiques** et proposer des améliorations ou des évolutions décisives pour un projet.
 
+### Comment choisir son développeur fullstack ?
 
-> Avez vous, vous aussi un avis sur la question ? Ce sujet est tout de même sensible. C'est pour cela que je vous invite à vous exprimer en commentaire :) !
+Il est important de choisir un développeur fullstack dont la stack de prédilection correspond aux besoins de votre projet. Par exemple, faire appel à un fullstack spécialiste de **PHP** pour développer une **application en temps réel** n’est peut-être pas la meilleure idée. Dans ce cas, il serait plus judicieux de choisir un développeur expérimenté en **Node.js** et dans des frameworks comme **Angular** ou **Vue.js**.
+
+> Et vous, avez-vous un avis sur la question ? N’hésitez pas à partager votre point de vue en commentaires !

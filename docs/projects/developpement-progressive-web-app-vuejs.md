@@ -11,16 +11,13 @@ missionPicture: mockup-pwa-weather-app.png
 listElements:
   - name: Vue.js
     text: Vue.js est un Framework Javascript open source. A la fois léger et modulaire, il facilite grandement le développement d'interface utilisateur dynamique.
-    img:  vuejs.jpg
+    img:  vuejs.png
   - name: Vuex
     text: VueX est une librairie qui permet de gérer un système centralisé de state pour vos composants. Elle est inspirée par la logique Flux.
-    img:  vuejs.jpg
-  - name: Webpack
-    text: Webpack est un module bundler incontournable aujourd'hui dans le développement d'application en javascript. Il permet de séparer en module indépendant les différentes ressources lors du développement, de minifier le tout, préparer une version packagée, légère et exécutable pour la production.
-    img: webpack.jpg
+    img:  vuex.png
   - name: Vuetify
     text: Vuetify est une bibliothèque de composants réutilisables pour vuejs permettant de mettre en place facilement une expérience utilisateur digne des grandes applications de google grâce à un design minimal et clair appelé "MATERIAL DESIGN".
-    img: vuetify.jpg
+    img: vuetify.svg
 
 bottomPicture: screen-pwa-weather-app.jpg
 ---

@@ -1,32 +1,39 @@
 ---
 layout: Post
-title:  De bonnes habitudes en communication en tant que Dev !
-published:   2018-08-28
-tag: métier
+title: "De bonnes habitudes de communication en tant que développeur"
+published: 2018-08-28
+tags: [métier, communication, productivité]
 author: Sylvain Pastor
 comments: true
-description: Je suis convaincu que lorsque tu es développeur, l'une des principales compétences à avoir c'est d'être capable de communiquer.
+description: Une compétence clé pour les développeurs est la capacité à bien communiquer. Découvrez comment améliorer vos échanges professionnels.
 ---
 
-Je suis convaincu que lorsque tu es développeur, l'une des principales compétences à avoir c'est d'être capable de communiquer de manière efficace avec n'importe lequel de tes collaborateurs.
+En tant que développeur, l'une des compétences les plus importantes à maîtriser est la communication. Même le meilleur codeur du monde aura du mal à réussir s'il ne parvient pas à se faire comprendre de ses collègues, clients ou supérieurs.
 
-En mettant mon ego de coté, je me suis rendu compte que plusieurs fois par jours (et bien que j'arrive toujours à me faire comprendre) les mots qui sortent de ma bouche ne font aucuns sens pour mon interlocuteur. C'est pour palier définitivement à ce problème que j'ai créé cet article. Ici je vais noter toutes les situations ou mauvaises habitudes que j'ai ( ou avais ) qui bousille mon mojo avec mes clients et autres collaborateurs.
+En observant mes propres interactions, j'ai constaté que, même si j'arrivais à me faire comprendre, il arrivait fréquemment que mes mots manquent de clarté ou soient mal interprétés. C'est dans cette optique que j'ai créé cet article. Je souhaite partager ici quelques-unes des mauvaises habitudes de communication que j'avais et comment j'ai appris à les corriger pour mieux collaborer avec mon entourage professionnel.
 
-## La fatigue
-Privé d'un vrai sommeil réparateur, ton cerveau se transforme en chewing-gum :) ! La fatigue est l'ennemi numéro un du codeur ! La pire de toutes les mauvaises habitudes que l'on peut prendre c'est **de travailler tard (très tard)**.
+## La fatigue : un ennemi invisible
 
-> Si demain, il y a une présentation importante à réaliser; qui de ces deux développeurs est le plus courageux: Celui qui va se priver de sommeil pour travailler ou celui qui va moins réviser et se coucher plus tôt afin n'avoir la meilleure configuration neuronale possible ?
+Lorsque tu es privé d'un vrai sommeil réparateur, ton cerveau devient comparable à un chewing-gum ! La fatigue est l'ennemi numéro un du développeur. L'une des pires habitudes que nous pouvons adopter est de **travailler tard, voire très tard**.
 
-Il n'y a pas de meilleur moment que la nuit pour se retrouver, ranger son cerveau et le laisser refroidir ;) Alors optimiser votre temps de sommeil au maximum pour avoir le meilleur rendement pendant la journée.
+> Imagine qu'une présentation importante est prévue demain : qui sera le plus efficace ? Celui qui sacrifiera son sommeil pour réviser davantage ou celui qui privilégiera une bonne nuit de repos pour être en pleine forme ?
 
-### Solution: comment vaincre le sommeil
-- Ne pas consommer de caféine en plein après midi.
-- Faire de l'exercice pendant la journée.
-- Faite en sorte que votre chambre soit à une température agréable.
-- Éviter les écrans (toutes les sortes d'écrans) deux heures avant votre période de sommeil.
-- Aucuns portables, aucunes tablettes [...] dans la chambre. C'est pas une lubie de bobo, c'est simplement pour être certain que le premier et derniers objets que tu touchera dans la journée ne soit pas ton téléphone ! ;)
+La nuit est le meilleur moment pour se ressourcer, recharger son cerveau et le laisser se "refroidir". Optimiser ton sommeil est crucial pour maintenir une productivité élevée pendant la journée.
 
-> Allé ! Une petite *digital detox* ne te fera pas bien mal.
+### Quelques astuces pour améliorer la qualité de ton sommeil
 
-Méthode personnelle:
-A 22H00, si ce n'est pas déjà le cas, j’éteins mon ordinateur et je met en charge mon téléphone portable loin de là où je dors ( à coté de la machine à café ou sur le bureau ). Je lis un bouquin jusqu'à environs 00H00.
+- Évite la caféine en fin d'après-midi.
+- Fais de l'exercice régulièrement dans la journée.
+- Assure-toi que ta chambre soit à une température confortable.
+- Limite l'exposition aux écrans au moins deux heures avant de dormir.
+- Pas de téléphone ou tablette dans la chambre. Ce n'est pas une simple tendance, mais une façon d'assurer que les premiers et derniers objets que tu touches dans la journée ne soient pas des appareils électroniques !
+
+> Une petite *digital detox* peut faire des merveilles pour ton bien-être.
+
+### Mon approche personnelle
+
+À partir de 22h00, j'éteins mon ordinateur et place mon téléphone en charge, loin de mon lit (souvent près de la machine à café ou sur mon bureau). Je prends ensuite un livre et je lis jusqu'à environ minuit, ce qui m'aide à me détendre et à déconnecter du travail.
+
+---
+
+Adopter ces bonnes habitudes m'a permis de mieux gérer mes journées, d'améliorer ma communication et de rester concentré, même dans les situations stressantes. J'espère que ces conseils te seront également utiles dans ton quotidien de développeur.

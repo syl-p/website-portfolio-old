@@ -1,15 +1,13 @@
 <template lang="html">
   <div class="signature">
     <div class="signature-head">
-      <div class="signature-head-picture avatar avatar-xl">
-        <img :src="$withBase(this.$site.themeConfig.domain +'/img/avatars/'+ signature.frontmatter.avatar)" :alt="signature.title">
+      <div class="signature-head-picture avatar avatar-md">
+        <img :src="$withBase('/img/avatars/'+ signature.frontmatter.avatar)" :alt="signature.title">
         <i class="avatar-presence online"></i>
       </div>
-      <p class="signature-head-title">Écrit par <a :href="signature.path">{{signature.title}}</a>
-      <br>le <span>{{this.$page.frontmatter.published}}</span></p>
-    </div>
-    <div class="signature-description">
-      <p><small>{{signature.frontmatter.description}}</small></p>
+      <p class="signature-head-title">
+        Écrit par <a :href="signature.path">{{signature.title}}</a>, le <span>{{this.$page.frontmatter.published}}</span>
+      </p>
     </div>
   </div>
 </template>
@@ -37,12 +35,13 @@ export default {
 
 <style lang="stylus">
   .signature
+    &-head
       width: 100%
-      .signature-head-picture
-        float left
-      .signature-head-title
-        margin-left: 80px;
-      .signature-description
-        clear:both
+      display: flex
+      align-items: center
+      gap: 15px
+      &-title
+        flex: 1
+        margin: 0
 
 </style>

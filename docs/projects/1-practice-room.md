@@ -10,16 +10,10 @@ role: Développement web
 link: https://github.com/syl-p/practice-room
 missionPicture: screen-cite-carcassonne.png
 listElements:
-  - name: vuejs
-    text: WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL
-    img:  vuejs.jpg
-  - name: vuetify
-    text: SMACSS est une méthode d'organisation permettant une meilleure organisation des feuilles de styles.
-    img:  vuetify.jpg
-  - name: nodejs
+  - name: AdonisJs
     text: Outil pour mettre en place une stratégie d'emailing.
     img: mailchimp.jpg
-  - name: gitflow
+  - name: Hotwire Turbo et Stimulus
     text: Pour créer des animations pendant le scroll de l'utilisateur, pour les popups...
     img: javascript.jpg
 

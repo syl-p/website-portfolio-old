@@ -63,14 +63,11 @@
             class="palette column col-lg-auto"
             v-for="e in $page.frontmatter.listElements"
           >
-            <div
-              class="color"
-              :style="
-                'background: url(' +
-                $withBase('/img/' + e.img) +
-                ') center center no-repeat'
-              "
-            ></div>
+            <div class="color">
+              <img
+              :src="$withBase('/img/' + e.img)"
+            >
+            </div>
             <div class="palette-title">
               <h4>{{ e.name }}</h4>
               <p>{{ e.text }}</p>
@@ -170,10 +167,16 @@ export default {
                 width: 160px;
                 height: 160px;
                 margin: 0 auto;
-                background-color: #fff;
-                background-size: cover!important;
+                background-color: $main_color;
                 box-shadow: 0 5px 20px 0 rgba(0,0,0,.33);
                 border-radius: 50%;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;  
+                justify-content: center;
+                align-items: center;
+                img
+                  max-width: 50%;
 
 
 @media screen and (min-width: $MQMobile) {

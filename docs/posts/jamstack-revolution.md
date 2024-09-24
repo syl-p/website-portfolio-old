@@ -1,54 +1,48 @@
 ---
 layout: Post
-title:  Jamstack, la révolution des sites statiques
+title:  "Jamstack : la révolution des sites statiques"
 published:   2018-03-21 11:18:18 +0000
-tag: jamstack technologies
+tags: [jamstack, technologies]
 author: Sylvain Pastor
 img: screen-jekyll.jpg
 comments: true
-description: Elle est révolue l’époque où pour créer le moindre site vitrine, site e commerce ou blog, la solution idéale était wordpress… Aujourd’hui un nouveau mouvement a vu le jour, il s’agit du **JAM STACK**.
+description: Fini l’époque où la création de sites web passait nécessairement par des solutions comme WordPress. Découvrez comment le **JAMstack** redéfinit la création de sites avec des technologies orientées client.
 ---
 
+Elle est révolue l’époque où, pour créer le moindre site vitrine, e-commerce ou blog, la solution idéale était WordPress… Aujourd’hui, un nouveau mouvement a vu le jour : le **JAMstack**.
 
-Elle est révolue l’époque où pour créer le moindre site vitrine, site e commerce ou blog, la solution idéale était wordpress… Aujourd’hui un nouveau mouvement a vu le jour, il s’agit du **JAM STACK**.
+Le JAMstack (JavaScript, APIs, Markup) est une approche moderne qui consiste à concevoir des sites web en s’appuyant exclusivement sur des technologies orientées **client**. Exit les CMS lourds et complexes : le JAMstack privilégie la génération de fichiers HTML statiques, offrant ainsi simplicité et sécurité. C’est donc le grand retour des sites statiques, mais remis au goût du jour !
 
-Le jam stack (JavaScript, api, markup) est une nouvelle façon de concevoir un site web en utilisant uniquement des technologies orientées **client**. Au revoir les C.M.S Hyper lourds, aujourd’hui on génère des fichiers html tout prêt ! C’est donc le grand retour des bons vieux sites statiques, simples et sécurisés !
-
-## Old School is the new cool !
-Contrairement à un environnement web lambda où pour chaque requête le contenu est récupéré depuis une base de donnée, traité et rendu par la suite à l’utilisateur, le JAM STACK se base sur le fait **qu’il n’y a pas de traitement backend à réaliser**. En supprimant toutes ses étapes avant de renvoyer une réponse aux clients, on gagne à la fois en simplicité, en rapidité et en sécurité.
+## Old School is the New Cool !
+Contrairement à un environnement web classique où chaque requête implique l’interrogation d’une base de données, son traitement, puis son rendu à l'utilisateur, le **JAMstack** repose sur le principe **qu’il n’y a aucun traitement backend** à effectuer lors de l'affichage d'une page. En supprimant ces étapes, on gagne en rapidité, en simplicité et en sécurité.
 
 ### Rapidité
 
-![JAM STACK IS BETTER ?!](../.vuepress/public/img/uploads/jamstack-explain.png)
+![JAMstack : une solution plus performante ?](../.vuepress/public/img/uploads/jamstack-explain.png)
 
-Alors que nos navigateurs et nos devices deviennent de plus en plus puissantes, avons-nous vraiment besoin de bases de données et de logiciels côté serveur (qui comprennent par la même occasion des failles de sécurité) alors que l’on souhaite créer un simple blog ?  
-
-Ainsi quand un utilisateur vient consulter une page, il demande simplement un fichier html dont le contenu est écrit en dur et restitué dans la foulé;
-
+Avec des navigateurs et des appareils toujours plus performants, avons-nous vraiment besoin d’utiliser des bases de données et des logiciels côté serveur (qui peuvent comporter des failles de sécurité) pour un simple blog ? Avec le JAMstack, lorsque l’utilisateur consulte une page, il obtient simplement un fichier HTML, dont le contenu est déjà pré-généré et prêt à être affiché instantanément.
 
 ### Sécurité
-En n’utilisant que des fichiers statiques, il n’y aucune chance pour que votre site web se fasse attaquer par une bande de hacker russe. En effet il n’y a aucune failles à exploiter puisqu’il n’y a pas de traitement côté serveur.
+En n’utilisant que des fichiers statiques, les risques de piratage sont grandement réduits. Sans serveur pour traiter les requêtes, il n’y a aucune surface d’attaque côté backend. Aucune faille côté serveur ne peut être exploitée, car il n’y a pas de serveur à pirater !
 
 ## Comment ça marche ?
-Sur votre ordinateur local, en préparant un certain nombre de ressource, vous allez pouvoir générer à la volé des fichier html, css et js qui constituent votre site web et cela grâce à un script (NodeJs, Ruby... ). Ces fichiers seront par la suite transférés sur votre hébergement.
+Le processus de création d’un site en JAMstack se déroule en local. À partir de ressources spécifiques, vous générez des fichiers HTML, CSS et JavaScript à l'aide d’un script (Node.js, Ruby, etc.). Ces fichiers sont ensuite déployés sur votre serveur d'hébergement.
 
-![Screen jekyll !](../.vuepress/public/img/uploads/screen-jekyll.jpg)
+![Exemple d'utilisation de Jekyll](../.vuepress/public/img/uploads/screen-jekyll.jpg)
 
-> Devinez quoi, vous êtes actuellement en train de consulter un site web construit en jam stack. Pour information ce dernier est généré grâce à une gem Ruby appelé **Jekyll**.
-
+> Devinez quoi, vous êtes actuellement en train de consulter un site construit en JAMstack. Pour information, celui-ci est généré grâce à une gem Ruby appelée **Jekyll**.
 
 ## A comme API
-Si vous avez besoin de service plus complet ( mailling, base de donnée, carte, commentaire…) nous aurons juste à choisir l’api qui convient. On se sert ainsi de ces dernières pour réaliser les traitements dont on a besoin sans faire travailler notre propre serveur.
+Pour ajouter des services plus avancés (mailing, bases de données, cartes, commentaires, etc.), vous pouvez vous appuyer sur des **APIs**. Plutôt que de surcharger votre serveur avec ces tâches, vous déléguez ces traitements aux APIs appropriées.
 
-> Le système de commentaire présent sur ce site est un très bon exemple. Sur un stack lambda, le serveur aurait dû traiter l’enregistrement de chaque commentaires, le lié à un utilisateur ou un nouvel utilisateur... Ici en utilisant l’api de [Disqus](https://disqus.com/) je décharge mon serveur de ce travail la. Je n’ai juste qu'à intégrer dans le template des articles de mon site.
+> Un bon exemple est le système de commentaires présent sur ce site. Sur un stack classique, le serveur aurait dû traiter chaque commentaire, le relier à un utilisateur, gérer la base de données, etc. Ici, grâce à l'API de [Disqus](https://disqus.com/), je décharge mon serveur de ce travail. Il suffit d’intégrer l’API dans le template des articles.
 
+## M comme Markup
+Pour rédiger vos articles, pages et contenus, vous utiliserez des syntaxes comme **Markdown** ou **YAML**. Ce sont des langages de balisage simples qui constituent le cœur du JAMstack. Une fois vos contenus rédigés, ils sont compilés pour être transformés en HTML.
 
-## M comme markup
-Pour rédiger des articles, vos pages et les différentes informations affichées sur le site, il va falloir vous pencher sur la syntaxe markdown/yaml car le coeur du jam stack est là ! C’est comme cela que vous allez écrire la majeur partie de votre contenu. Par la suite lorsque vous allez générer le site, ces fichiers seront compilé et transformé en html.
+## Les limites du JAMstack
+Le JAMstack atteint ses limites lorsqu’il s’agit de déployer des plateformes complexes ou des sites avec des services innovants. Cependant, pour la création de sites centrés sur le contenu, cette méthode est idéale. Si votre principal objectif est de mettre en avant du contenu de manière efficace et sécurisée, le JAMstack est une solution à envisager.
 
+---
 
-## Les limites
-Vous l’aurez compris le Jam stack voit très vite ses limites lorsqu’il est question de déployer une plateforme web ou un site web ayant des services particuliers et innovant. Mais la mise en place de cette méthode, sera répondre parfaitement à vos besoins si mettre en avant du contenu est votre principal objectif.
-
-
-sources: [jamstack.com](http://jamstack.com), [jamstatic.fr](http://jamstatic.fr)
+Sources : [jamstack.com](http://jamstack.com), [jamstatic.fr](http://jamstatic.fr)
