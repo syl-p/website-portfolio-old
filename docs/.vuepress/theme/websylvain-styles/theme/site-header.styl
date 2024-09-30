@@ -2,8 +2,8 @@
     position: fixed;
     padding: 25px;
     z-index: 3
+    justify-content: space-around;
     .navbar-section {
-      flex: none!important;
       .navbar-brand{
         &.navbar-brand_reverse{
           display: none;
@@ -38,20 +38,20 @@
     }
 
     .nav-links {
+      min-width: 60%;
       display: none;
       flex: 1;
-      -webkit-backdrop-filter: blur(8px);
-      backdrop-filter: blur(8px);
-      background: hsla(0, 0%, 100%, .1);
-      border-radius: .25rem;
-      height: 3rem;
-      padding: 0 20px;
       justify-content: center;
       align-items: center;
 
       ul {
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        background: hsla(0, 0%, 100%, .1);
+        border-radius: .25rem;
+        height: 3rem;
+        padding: 0 20px;
         margin: 0;
-        padding: 0;
         display: flex;
         gap: 20px;
         align-items: center;
@@ -88,7 +88,7 @@
   }
 }
 
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: $MQNarrow){
   .site-header{
     .navbar-section {
       #typef_orm_share {
