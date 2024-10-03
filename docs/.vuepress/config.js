@@ -1,15 +1,26 @@
-
 module.exports = {
   title: "Websylvain Développeur web",
-  description: "Développeur et Consultant Web Freelance. L'indépendant qui ne vous laissera jamais seul !",
-  base: '',
+  description:
+    "Développeur et Consultant Web Freelance. L'indépendant qui ne vous laissera jamais seul !",
+  base: "",
   head: [
-    ['link',
-      {rel:'stylesheet',
-      href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-      integrity:"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN",
-      crossorigin:"anonymous"}],
-    ['meta', { name: 'google-site-verification', content: 'E9stx9fFMrhjIARG8CVHxy_k9azsOf14AIYmH0_Lok0' }]
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        integrity:
+          "sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN",
+        crossorigin: "anonymous",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "E9stx9fFMrhjIARG8CVHxy_k9azsOf14AIYmH0_Lok0",
+      },
+    ],
     /*['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -22,80 +33,69 @@ module.exports = {
   ],
   serviceWorker: false,
   plugins: {
-    '@vuepress/google-analytics': {
-      ga: 'UA-61964631-2',
-    }
+    "@vuepress/google-analytics": {
+      ga: "UA-61964631-2",
+    },
   },
   themeConfig: {
-    domain: 'https://websylvain.com',
-    social:{
-        instagram: "http://www.instagram.com/websylvain.dev",
-        facebook: "https://www.facebook.com/webDevHappiness",
-        twitter: "http://www.twitter.com/@websylvain_dev",
-        linkedin: "https://www.linkedin.com/in/websylvain/"
+    domain: "https://websylvain.com",
+    social: {
+      instagram: "http://www.instagram.com/websylvain.dev",
+      facebook: "https://www.facebook.com/webDevHappiness",
+      twitter: "http://www.twitter.com/@websylvain_dev",
+      linkedin: "https://www.linkedin.com/in/websylvain/",
     },
-    lastUpdated: 'Dernière mise à jour',
+    lastUpdated: "Dernière mise à jour",
     nav: [
-          {
-            text: 'Accueil',
-            link: '/'
-          },
-          {
-            text: 'A propos',
-            link: '/a-propos/',
-          },
-          {
-            text: 'Projets',
-            link: '/projects/'
-          },
-          {
-            text: 'Les articles',
-            link: '/posts/'
-          },
-          {
-            text: 'Contact',
-            link: '/contact/'
-          }
+      {
+        text: "Accueil",
+        link: "/",
+      },
+      {
+        text: "A propos",
+        link: "/a-propos/",
+      },
+      {
+        text: "Projets",
+        link: "/projects/",
+      },
+      {
+        text: "Les articles",
+        link: "/posts/",
+      },
+      {
+        text: "Contact",
+        link: "/contact/",
+      },
     ],
     sidebar: {
-      '/a-propos/': getDefaultSidebar("A propos"),
-      '/posts/': getSideBarForPost()
-    }
-  }
-}
+      "/a-propos/": getDefaultSidebar("A propos"),
+      "/posts/": getSideBarForPost(),
+    },
+  },
+};
 
-function getDefaultSidebar (title) {
+function getDefaultSidebar(title) {
   return [
     {
       title,
       collapsable: false,
-      children: [
-        '',
-        'auteurs/sylvain-pastor.html',
-      ]
-    }
-  ]
+      children: ["", "auteurs/sylvain-pastor.html"],
+    },
+  ];
 }
 
-function getSideBarForPost(){
+function getSideBarForPost() {
   return [
     {
       title: "Les derniers cas étudié",
       collapsable: false,
-      children: [
-        'case-study/sig-annuaire-balade',
-      ]
+      children: ["case-study/sig-annuaire-balade"],
     },
     {
       title: "Les derniers articles",
       collapsable: false,
-      children: [
-        'seo-vuejs-spa',
-        'software-craftmanship-definition',
-        'bonnes-mauvaises-habitudes-developpeur-web',
-        'utiliser-plugin-pwa-vue-cli-3',
-        'developpeur-web-partenaria-jooble'
-      ]
-    }
-  ]
+      children: [],
+    },
+  ];
 }
