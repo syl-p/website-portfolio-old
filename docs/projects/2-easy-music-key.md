@@ -3,7 +3,7 @@ project: true
 layout: Project
 title: Easy music key
 description: easy-music-key est une interface permettant aux musiciens d'apprendre et de maîtriser les notions simples d'harmonie.
-img: easy-music-key-screen.jpeg
+img: screen-1-easy-music-key.jpeg
 featured: true
 link: https://syl-p.github.io/easy-music-key/#/
 role: Développement web
@@ -14,8 +14,7 @@ listElements:
   - name: Typescript
     text: TypeScript est un langage de programmation libre développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript.
     img: typescript.png
-missionPicture: screen-1-easy-music-key.jpeg
-bottomPicture: screen-2-easy-music-key.jpeg
+missionPicture: easy-music-key-screen-design.png
 ---
 
 Sujet complexe d'un point de vue algorythmique mais simple coté Vuejs. C'est à la fois un sujet particulier demandé pour un ami musicien. J'ai toujours eu un peu de mal à simplifier au maximum la théorie qui est derrière ce gros mot qu'est l'**Harmonie** pour l'expliquer. C'est là que cette idée à germée.
@@ -33,8 +32,6 @@ Outil interactif pour musiciens. Lorsque vous sélectionnez une tonalité, cet o
 - G7 / Mixolydien;
 - Am / Aeolien;
 - Bø (m7♭5) / Locrien;
-
-![Mockup de l'application progressive](/img/projects/screen-2-easy-music-key.jpeg)
 
 ## Liens
 
