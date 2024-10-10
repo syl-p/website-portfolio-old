@@ -76,24 +76,37 @@
               <p>{{ this.$frontmatter.services_description }}</p>
             </div>
           </header>
-          <article class="column col-lg-12 col-6" style="margin-bottom: 25px;">
+          <article class="column col-lg-12 col-7" style="margin-bottom: 25px">
             <ul class="column col-lg-12 col-12 practice-content-list">
               <li v-for="(s, i) in this.$frontmatter.services">
                 <span>{{ i + 1 }}.</span> {{ s }}
               </li>
             </ul>
           </article>
-          <aside class="column col-lg-12 col-6">
+          <aside class="column col-lg-12 col-5">
             <div>
               <h3>Mes Technologies préférées:</h3>
-              <ul>
+              <ul style="padding-left: 0; margin-left: 0">
                 <li v-for="s in this.$frontmatter.services_2">
                   {{ s }}
                 </li>
               </ul>
             </div>
           </aside>
-          <footer class="column col-12"></footer>
+
+          <div
+            class="column col-lg-12 col-12 langage-list text-center div-coins"
+          >
+            <img src="../../public/img/webpack.png" />
+            <img src="../../public/img/vuejs.png" />
+            <img src="../../public/img/nodejs.png" />
+            <img src="../../public/img/mongodb.png" />
+            <img src="../../public/img/git.png" />
+            <img src="../../public/img/docker.png" />
+
+            <div class="corner-bottom-left"></div>
+            <div class="corner-bottom-right"></div>
+          </div>
         </section>
       </article>
       <article id="projects" class="section home-section">
@@ -161,7 +174,7 @@ export default {
     Hero,
     LastProjects,
     LastNews,
-    SocialList
+    SocialList,
   },
   methods: {
     showOnScroll() {
