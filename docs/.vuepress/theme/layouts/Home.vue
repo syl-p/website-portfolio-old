@@ -13,6 +13,24 @@
           <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
         </a>
       </article>
+
+      <article id="services" class="section home-section container">
+        <section class="columns practice-content">
+          <aside class="column col-4 col-lg-12">
+            <h2>Ce que je vous propose</h2>
+          </aside>
+          <article class="column col-8 col-lg-12" style="margin-bottom: 25px">
+            <ul class="practice-content-list">
+              <li v-for="(s, i) in this.$frontmatter.services">
+                <a href="#" class="d-block btn btn-primary">
+                  {{ i + 1 }}. {{ s }}
+                </a>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </article>
+
       <article id="about" class="section home-section container">
         <header
           class="home-section-header"
@@ -64,49 +82,6 @@
               </div>
             </div>
           </aside>
-        </section>
-        <section class="columns practice-content">
-          <header class="column col-12">
-            <h2>Bien plus qu'un développeur, votre partenaire...</h2>
-            <div
-              class="indent-paragraph"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              <p>{{ this.$frontmatter.services_description }}</p>
-            </div>
-          </header>
-          <article class="column col-lg-12 col-7" style="margin-bottom: 25px">
-            <ul class="column col-lg-12 col-12 practice-content-list">
-              <li v-for="(s, i) in this.$frontmatter.services">
-                <span>{{ i + 1 }}.</span> {{ s }}
-              </li>
-            </ul>
-          </article>
-          <aside class="column col-lg-12 col-5">
-            <div>
-              <h3>Mes Technologies préférées:</h3>
-              <ul style="padding-left: 0; margin-left: 0">
-                <li v-for="s in this.$frontmatter.services_2">
-                  {{ s }}
-                </li>
-              </ul>
-            </div>
-          </aside>
-
-          <div
-            class="column col-lg-12 col-12 langage-list text-center div-coins"
-          >
-            <img src="../../public/img/webpack.png" />
-            <img src="../../public/img/vuejs.png" />
-            <img src="../../public/img/nodejs.png" />
-            <img src="../../public/img/mongodb.png" />
-            <img src="../../public/img/git.png" />
-            <img src="../../public/img/docker.png" />
-
-            <div class="corner-bottom-left"></div>
-            <div class="corner-bottom-right"></div>
-          </div>
         </section>
       </article>
       <article id="projects" class="section home-section">

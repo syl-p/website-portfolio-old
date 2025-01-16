@@ -3,7 +3,7 @@
     <header class="site-header navbar container">
       <section class="navbar-section">
         <a class="navbar-brand navbar-brand_normal mr-2" :href="$site.base"
-          ><img src="../public/img/logo-min.png" alt="" srcset=""
+          ><img src="../public/img/logo-min-black.png" alt="" srcset=""
         /></a>
         <a class="navbar-brand navbar-brand_reverse mr-2" :href="$site.base"
           ><img src="../public/img/logo-min-black.png" alt="" srcset=""

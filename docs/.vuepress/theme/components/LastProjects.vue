@@ -119,7 +119,6 @@ ul.project-list{
         position: absolute;
         bottom: 90px;
         left: -50px;
-        color: #fff;
         z-index: 10;
         max-width: 550px;
         -webkit-transform: scale(1) translateX(0);

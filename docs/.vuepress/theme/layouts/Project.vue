@@ -3,11 +3,7 @@
     <section class="project">
       <header
         class="page-header"
-        :style="
-          'background-image: url(' +
-          $withBase('/img/projects/' + $page.frontmatter.img) +
-          ');'
-        "
+        :style=""
       >
         <div class="overlay_patern"></div>
         <div class="page-header-title">
@@ -122,10 +118,7 @@ export default {
         height: 100vh;
         text-align: center;
         position relative
-        background-size : cover;
-        background-position: center, center;
         margin: 0px;
-        color: white;
         .page-header-title
             position: absolute;
             top: 50%;
@@ -134,20 +127,9 @@ export default {
             transform: translate(-50%, -50%);
             -webkit-transform: translate(-50%, -50%);
             padding : 10%;
-        .overlay_patern {
-            background-image: url(../../public/img/overlay-pattern.png);
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-repeat: repeat;
-            position: absolute;
-            z-index: 0;
-        }
 
     .bottom_header
         background-color: $main_color;
-        color: white;
         width: 100%;
         margin: 0px 0px 130px 0px;
         padding: 0% 10% 0% 10%;
@@ -155,7 +137,6 @@ export default {
             margin-top :1.2rem;
             span
                 text-transform : uppercase;
-                color: $second_color;
 
     .palette-list
         margin: 50px 0px 50px 0px;

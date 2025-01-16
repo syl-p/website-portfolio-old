@@ -44,10 +44,10 @@ ul.social-list {
     clear: both;
     li{
       &:first-child{
-        padding-left: 0px;
+        padding: 0px;
       }
       display: inline-block;
-      padding: 15px;
+      padding: 0px 15px;
       i.fa {
         font-size: 25px;
         display: inline-block;

@@ -9,11 +9,7 @@ Je suis disponible pour répondre à toutes vos questions ou pour vous fournir u
 
 - **Par téléphone** : +33 7 61 74 17 02
 - **Via le formulaire** : Remplissez [le formulaire typeform](https://sylvain32.typeform.com/to/hP4lpWye)
-- Sur les réseaux sociaux
 
-<ClientOnly>
-    <SocialList />
-</ClientOnly>
 
 ## Mon engagement
 Je m'engage à vous offrir un service personnalisé et à répondre à vos besoins spécifiques avec réactivité et professionnalisme. Chaque projet est unique, et je suis à votre écoute pour vous proposer des solutions sur mesure.

@@ -43,7 +43,6 @@ export default {
   
   h1 {
     font-size: 50px;
-    color: #fff;
     font-weight: 600;
   }
 }
