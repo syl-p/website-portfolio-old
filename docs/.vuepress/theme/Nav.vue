@@ -1,6 +1,6 @@
 <template>
   <header>
-    <header class="site-header navbar container">
+    <div class="site-header navbar container">
       <section class="navbar-section">
         <a class="navbar-brand navbar-brand_normal mr-2" :href="$site.base"
           ><img src="../public/img/logo-min-black.png" alt="" srcset=""
@@ -31,7 +31,7 @@
           <div class="corner-bottom-right"></div>
         </a>
       </section>
-    </header>
+    </div>
     <nav class="asideNav">
       <div id="cd-nav" class="cd-nav">
         <div class="cd-navigation-wrapper columns">

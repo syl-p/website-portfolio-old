@@ -235,12 +235,7 @@
   color: rgba(255, 255, 255, 0.3)!important;
   display: inline-block;
 }
-.cd-nav .cd-primary-nav a.selected {
-  color: #ffffff;
-}
-.no-touch .cd-nav .cd-primary-nav a:hover {
-  color: #ffffff;
-}
+
 .cd-nav .cd-contact-info {
   margin-left: 0px;
   margin-top: 80px;
@@ -250,10 +245,8 @@
 .cd-nav .cd-contact-info li {
   margin-bottom: 1.5em;
   line-height: 1.2;
-  color: rgba(255, 255, 255, 0.3)!important;
 }
 .cd-nav .cd-contact-info a {
-  color: #ffffff!important;
 }
 .cd-nav .cd-contact-info span {
   display: block;
@@ -294,7 +287,6 @@
   .cd-nav .cd-contact-info li {
     margin-bottom: 2.4em;
   }
-
 }
 
 .no-js main {
