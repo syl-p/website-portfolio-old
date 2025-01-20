@@ -20,13 +20,7 @@
             <h2>Ce que je vous propose</h2>
           </aside>
           <article class="column col-8 col-lg-12" style="margin-bottom: 25px">
-            <ul class="practice-content-list">
-              <li v-for="(s, i) in this.$frontmatter.services">
-                <a href="#" class="d-block btn btn-primary">
-                  {{ i + 1 }}. {{ s }}
-                </a>
-              </li>
-            </ul>
+            <Services />
           </article>
         </section>
       </article>
@@ -136,6 +130,7 @@ import scroll from "../directives/scroll.js";
 import LastProjects from "../components/LastProjects.vue";
 import LastNews from "../components/LastNews.vue";
 import SocialList from "../components/SocialList.vue";
+import Services from "../components/Services.vue";
 export default {
   data() {
     return {
@@ -145,6 +140,7 @@ export default {
   },
   directives: { scroll },
   components: {
+    Services,
     Wrapper,
     Hero,
     LastProjects,

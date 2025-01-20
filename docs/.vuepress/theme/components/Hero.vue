@@ -14,7 +14,6 @@ export default {
       options: {
         strings: [
           "Développeur web Freelance",
-          "Etablit en France",
           "à Carcassonne (11000 Aude)!",
         ],
         typeSpeed: 50,
